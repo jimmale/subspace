@@ -31,7 +31,11 @@ go build -buildmode=pie -ldflags "-s -w" -o ./subspace ./cmd/main.go
 ### Buildtime 
 
 ### Runtime
-- quic-go github.com/lucas-clemente/quic-go
+| Library                                                     | License | Purpose                                      |
+| -------                                                     |---------|----------------------------------------------|
+| [Sirupsen/Logrus](https://github.com/Sirupsen/logrus)       | MIT     | Pretty Logging                               |
+| [urfave/cli/v2](https://github.com/urfave/cli/v2)           | MIT     | CLI args parsing, configuration file reading |
+| [lucas-clemente/quic-go](github.com/lucas-clemente/quic-go) | MIT     | Peer Connection                              |
 
 ## TODO
 

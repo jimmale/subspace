@@ -9,4 +9,5 @@ type Peer struct {
 
 func Connect(ip net.IP, port uint) (*Peer, error) {
 
+	return nil, nil
 }
