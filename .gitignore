@@ -47,6 +47,7 @@ vendor/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
+.idea/inspectionProfiles
 
 ### JetBrains Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
